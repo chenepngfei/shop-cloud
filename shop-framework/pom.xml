@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.afei.cloud</groupId>
+        <artifactId>shop</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>shop-framework</artifactId>
+    <description>
+        This package is a technical component, each sub-package representing a component. Each component includes two parts:
+        1. core package: the core encapsulation of the component
+        2. config package: the configuration of the component based on Spring
+
+        Technical components are also divided into two categories:
+        1. Framework components: extensions of the familiar jpa, Redis, etc.
+        2. Business components: encapsulation of components related to the business, such as data dictionaries, operation logs, etc.
+        If it is a business component, the Maven name will contain biz
+    </description>
+    <modules>
+        <module>shop-common</module>
+    </modules>
+    <packaging>pom</packaging>
+
+</project>
