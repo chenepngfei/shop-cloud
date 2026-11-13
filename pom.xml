@@ -37,6 +37,17 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>cn.afei.cloud</groupId>
+                <artifactId>shop-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.afei.cloud</groupId>
+                <artifactId>shop-spring-boot-starter-datasource</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring.boot.version}</version>

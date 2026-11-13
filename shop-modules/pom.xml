@@ -11,5 +11,8 @@
 
     <artifactId>shop-modules</artifactId>
     <description>Business Module</description>
+    <modules>
+        <module>shop-system</module>
+    </modules>
     <packaging>pom</packaging>
 </project>

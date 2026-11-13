@@ -22,6 +22,7 @@
     </description>
     <modules>
         <module>shop-common</module>
+        <module>shop-spring-boot-starter-datasource</module>
     </modules>
     <packaging>pom</packaging>
 
